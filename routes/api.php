@@ -72,7 +72,7 @@ Route::middleware('auth:sanctum')->group(function(){
       
         Route::post("store", [Gigcontroller::class, 'store']);
         Route::get("get", [Gigcontroller::class, 'index']);
-         Route::get("{id}", [Gigcontroller::class, 'show']);
+        Route::get("{id}", [Gigcontroller::class, 'show']);
         Route::put("{id}", [Gigcontroller::class, 'update']);
         Route::delete("{id}", [Gigcontroller::class, 'destroy']);
       
