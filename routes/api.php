@@ -40,7 +40,7 @@ use App\Http\Controllers\TrackorderController;
 |
 */
 
-Route::get('/test', fn() => 'worked');
+Route::get('/test', fn() => 'really working fuckkkkkkk');
 Route::get('/testmail', [AuthController::class, 'testmail']);
 Route::get('/verifyaccount', [AuthController::class, 'verifyaccount']);
 Route::post('/login', [AuthController::class, 'login']);
